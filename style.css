@@ -1,0 +1,338 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    opacity:0.5;
+}
+
+body:hover{
+    opacity:1;
+    
+}
+
+.nameTag{
+    position: relative;
+    bottom:-200px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.navTag li{
+  position: relative; 
+  left:30%; 
+  margin:2%;
+  color:white;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+li:hover{
+    text-decoration:line-through;
+    color:green;      
+}
+
+.myWorkButton{
+    width:20%;
+    height:50px;
+    border-radius:5px;
+    border: solid 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    box-shadow:3px 1px 4px 1px white;
+    background-color: green;
+    
+}
+
+.aboutMe{
+    position: relative;
+    bottom:-400px;
+    width:100%;
+    height:650px;
+    opacity:0.88;
+    background-color: white;
+}
+
+.h34About{
+    position:relative;
+    left:45%;
+    bottom:-12%;
+    color:black;
+}
+
+.hr1{
+    position: relative;
+    bottom:-5%;
+    width:15%;
+    border:2px solid black;
+    background-color: black;
+}
+
+.hr2{
+    position: relative;
+    top:-3%;
+    width:30%;
+    border:2px solid black;
+    background-color: black;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+}
+
+.myCV{
+    width:25%;
+    height:50px;
+    border-radius:5px;
+    border: solid 0px;
+    box-shadow:3px 6px 4px 6px black;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    box-shadow:3px 1px 4px 1px black;
+    background-color: green;
+}
+
+/*Skill Cards*/
+.SkillCard1{
+    position: relative;
+    right:25%;
+    bottom:-650px;
+    text-align: center;
+    border-radius:10px;
+    width: 20%;
+    height:600px;
+    background-color: white;
+    box-shadow:3px 2px 2px 2px green;
+}
+
+.SkillCard2{
+    width: 20%;
+    height:600px;
+    text-align: center;
+    border-radius:10px;
+    background-color: white;
+    box-shadow:3px 2px 2px 2px green;
+}
+
+.SkillCard3{
+    position: relative;
+    left:25%;
+    top:-600px;
+    text-align: center;
+    border-radius:10px;
+    width: 20%;
+    height:600px;
+    background-color: white;
+    box-shadow:3px 2px 2px 2px green;
+    
+}
+
+.img1{
+    position: relative;
+    bottom:-60px;
+    background-color: black;
+    width: 160px;
+    height:160px;
+}
+
+.img2{
+    position: relative;
+    bottom:-60px;
+    background-color: black;
+    width: 170px;
+    height:170px;
+}
+
+.img3{
+    position: relative;
+    bottom:-60px;
+    background-color: black;
+    width: 160px;
+    height:160px;
+}
+
+.img1:hover ,.img2:hover ,.img3:hover{
+    opacity: 0.30;
+    background-color:green;
+    transform: scale(.75);
+    transition: transform 1.3s ease;
+}
+
+button:hover{
+    opacity:0.5;
+}
+
+.myProjectsCards{
+    position: relative;
+    top:-500px;
+    width:100%;
+    float:left;
+    height:700px;
+    opacity:0.88;
+    background-color: white;
+}
+
+.projectCard1{
+    position:relative;
+    left:15%;
+    bottom:-30px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+.projectCard2{
+    position:relative;
+    left:15%;
+    bottom:-30px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+.projectCard3{
+    position:relative;
+    left:15%;
+    bottom:-30px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+.projectCard4{
+    position:relative;
+    left:55%;
+    top:-600px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+.projectCard5{
+    position:relative;
+    left:55%;
+    top:-600px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+.projectCard6{
+    position:relative;
+    left:55%;
+    top:-600px;
+    width:30%;
+    height:200px;
+    margin:10px;
+    box-shadow:3px 8px 16px 5px rgba(0.5, 0, 0, 0.8);
+    background-color: green;
+    border-radius: 5px;
+}
+
+b{
+    position:relative;
+    bottom:-5%;
+}
+/*icons on project cards*/
+i{
+    position:relative;
+    bottom:-150px;
+    margin:10px;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+}
+/*Footer*/
+
+section{
+    position:relative;
+    bottom:-450px;
+    margin-bottom:0%;
+    width:100%;
+    height:800px;
+}
+.h3ForFooter{
+    position:relative;
+    top:-500px;
+    left:5%;
+    color:white;
+}
+
+/*My contacts icons*/
+.contacts a i{
+    position:relative;
+    top:-450px;
+    left:5%;
+    padding-top:1%;
+    color:green;
+    font-size:25px;
+}
+
+.contacts a i:hover{
+    transform:rotate(360deg);
+    transition-duration: 1000ms;
+}
+
+/*Forms*/
+
+form{
+    position: relative;
+    left:40%;
+    top:-820px;
+    color:white;
+}
+
+
+.EmailResize{
+    position: relative;
+    left:1%;
+    width:37%;
+
+}
+
+.sendButton{
+    position: relative;
+    left:1%;
+    width:20%;
+    height:50px;
+    border-radius:5px;
+    border: solid 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+    box-shadow:3px 1px 4px 1px white;
+    background-color: green;
+    
+}
+
+textarea{
+    width:100%;
+}
+/*footer*/
+footer{
+    position: relative;
+    bottom:-520px;
+    height:227px;
+    background-color: green;
+    text-align:center;
+    opacity:0.20;
+}
+
+h4{
+    position: relative;
+    bottom:-100px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-size:40px;
+}
